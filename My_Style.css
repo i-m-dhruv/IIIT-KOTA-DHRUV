@@ -1,0 +1,204 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(203, 234, 246);
+}
+.Header {
+  background-color: rgb(131, 220, 184);
+}
+.Heading {
+  max-width: 100vw;
+  margin-left: 4vw;
+  margin-top: 6vw;
+  font-size: 2.6vw;
+  font-family: Merriweather, serif;
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+#Sub_heading {
+  font-size: 2vw;
+}
+.Logo {
+  margin: 2.5vw;
+  width: 12vw;
+  height: 12vw;
+}
+.icons {
+  margin-right: 8px;
+  display: flex;
+  float: left;
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+}
+.icons:hover {
+  height: 40px;
+  width: 40px;
+}
+.Header::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+[class*="col-"] {
+  float: left;
+}
+.col-1 {
+  width: 8.33%;
+}
+.col-2 {
+  width: 12.5%;
+}
+.col-3 {
+  width: 25%;
+}
+.col-4 {
+  width: 33.33%;
+}
+.col-5 {
+  width: 41.66%;
+}
+.col-6 {
+  width: 50%;
+}
+.col-7 {
+  width: 58.33%;
+}
+.col-8 {
+  width: 66.66%;
+}
+.col-9 {
+  width: 75%;
+}
+.col-10 {
+  width: 83.33%;
+}
+.col-11 {
+  width: 91.66%;
+}
+.col-12 {
+  width: 100%;
+}
+
+.Menu_Bar {
+  list-style-type: none;
+  padding: 14px 16px;
+}
+
+.Menu_items {
+  font-size: 1.3vw;
+  float: left;
+  font-family: Merriweather;
+  color: grey;
+  text-shadow: 1px 1px 3px red;
+}
+.Menu_Bar a {
+  padding: 14px 18px;
+  text-decoration: none;
+}
+.Menu_Bar a:hover {
+  font-size: 1.4vw;
+  background-color: white;
+  text-decoration: underline;
+}
+.Director {
+  overflow: auto;
+  background-color: white;
+  margin: 3vw;
+}
+.Director_Message h1 {
+  font-family: Charm;
+  color: black;
+  text-shadow: 2.5px 2.5px 5px rgb(85, 225, 106);
+}
+.Director_Message {
+  margin-left: 4vw;
+  font-size: 1.5vw;
+  text-align: justify;
+}
+.Event_Heading {
+  margin-top: 5vw;
+  font-size: 3vw;
+  font-family: Charm;
+  text-align: center;
+  color: black;
+  text-shadow: 2.5px 2.5px 5px rgb(85, 225, 106);
+}
+iframe {
+  padding: 20px;
+}
+.Events {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: center;
+}
+.Videos {
+  margin-right: 10px;
+  width: 430px;
+  height: 320px;
+}
+.Campus_Heading {
+  margin-top: 5vw;
+  font-size: 3vw;
+  font-family: Charm;
+  text-align: center;
+  color: black;
+  text-shadow: 2.5px 2.5px 5px rgb(85, 225, 106);
+}
+.Campus {
+  float: left;
+  display: flex;
+  flex-flow: row wrap;
+}
+.Campus img {
+  margin: 3vw;
+  height: 20vw;
+  width: 25vw;
+  box-shadow: 2px 4px 10px black;
+  border-radius: 12px;
+  transition: width 1s, height 1s;
+}
+.Campus img:hover {
+  width: 28vw;
+  height: 23vw;
+}
+.Seat_Matrix {
+  margin: auto;
+}
+table {
+  border-collapse: collapse;
+  padding: 10px;
+}
+.Seat_Matrix td,
+.Seat_Matrix th {
+  font-family: merriweather;
+  padding: 5px;
+  border: 2px solid rgb(58, 53, 53);
+}
+tr:hover {
+  background-color: white;
+}
+.Seat_Matrix tr:first-child {
+  background-color: springgreen;
+}
+.Partners {
+  display: flex;
+  flex-flow: wrap;
+  align-content: center;
+  justify-content: space-around;
+}
+.Partners img {
+  border: 1.5px solid black;
+  padding: 10px;
+  height: 15vw;
+  width: 15vw;
+  box-shadow: 2px 4px 10px black;
+  border-radius: 12px;
+  transition: height 1s, width 0.7s;
+}
+.Partners img:hover {
+  height: 18vw;
+  width: 18vw;
+}
